@@ -9,8 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Suresh Parimi",
   title: "Hi all, I'm Suresh",
-  subTitle: emoji("A passionate Software Tester 🚀 providing quality assurance solutions for small,medium and big size companies and building scalable automated software testing frameworks for Web and Mobile applications, REST APIs and Microservices with Python / Selenium / Postman & newman / Pytest/ Java and some other cool libraries and frameworks."),
-  resumeLink: "https://www.linkedin.com/in/sparimi"
+  subTitle: emoji("Automation Test Consultant,JIRA Administrator with Azure DevOps 🚀 automating and optimizin the business processes to help businesses focus on core problems of the business."
 };
 
 // Your Social Media Link
@@ -19,23 +18,20 @@ const socialMediaLinks = {
 
   github: "https://github.com/sureshparimi",
   linkedin: "https://www.linkedin.com/in/sparimi",
-  gmail: "suresh.parimi2@gmail.com",
-  facebook: "https://www.facebook.com/iamparimi/",
-  //medium: "https://medium.com/@saadpasta",
+  gmail: "reachparimi@gmail.com",
   stackoverflow: "https://stackoverflow.com/users/11113805/suresh-parimi"
-  // Instagram and Twitter are also supported in the links!
 };
 
 // Your Skills Section
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY SOFTWARE TEST CONSULTANT WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Optimizing testing business processes with Software Automation tools, JIRA Administration and DevOps",
   skills: [
-    emoji("⚡ Test highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Test REST APIs & Microservices of prodcuts/applications"),
-    emoji("⚡ Test Infrastructure as a code built on AWS,Terraform "),
-    emoji("⚡ Building scalable automated software test frameworks using Python/Selenium/Cypress/Robot Framework/Postman/SoapUI")
+    emoji("⚡ Playwright Cypress Pytest RobotFramework Selenium Postman Jmeter RestAssured Appium "),
+    emoji("⚡ Web Mobile REST API and Microservices testing"),
+    emoji("⚡ CI/CD using Azure DevOps, Jenkins, AWS"),
+    emoji("⚡ Optimizing, improving the test management process")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -43,51 +39,51 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "Python",
+      skillName: "Playwright",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "Selenium",
+      skillName: "Cypress",
       fontAwesomeClassname: "fab fa-selenium-alt"
     },
     {
-      skillName: "Pytest",
+      skillName: "Selenium",
       fontAwesomeClassname: "fab fa-pytest"
     },
     {
-      skillName: "JavaScript",
+      skillName: "Pytest",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "Postman",
+      skillName: "RESTAssured",
       fontAwesomeClassname: "fab fa-postman"
     },
     {
-      skillName: "Cypress",
+      skillName: "Azure DevOps",
       fontAwesomeClassname: "fab fa-cypress"
     },
     {
-      skillName: "JIRA",
+      skillName: "Jmeter",
       fontAwesomeClassname: "fab fa-jira"
     },
     {
-      skillName: "BDD",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-bdd"
     },
     {
-      skillName: "MongoDB-database",
+      skillName: "Jenkins",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "Test Process Optimization",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "Jenkins",
+      skillName: "Test Management",
       fontAwesomeClassname: "fas fa-jenkins"
     },
     {
-      skillName: "docker",
+      skillName: "JIRA Administration",
       fontAwesomeClassname: "fab fa-docker"
     }
   ]
@@ -103,7 +99,7 @@ const educationInfo = {
       logo: require("./assets/images/jntuhlogo.png"),
       subHeader: "Bachelors in Electrical and Electornics Engineering",
       duration: "May 1999 - April 2003",
-      desc: "Participated in the power tranmission loss prevention project using neural networks",
+      desc: "My academic project sold to Australian power project company - Optimizing the loss of Power transmission using neural networks",
     }
   ]
 }
@@ -114,7 +110,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Automation Testing of web & Mobile applications",  //Insert stack or technology you have experience in
+      Stack: "Web - Playwright, Cypress, Selenium",  //Insert stack or technology you have experience in
       progressPercentage: "100%"  //Insert relative proficiency in percentage
     },
     {
@@ -122,19 +118,19 @@ const techStack = {
       progressPercentage: "90%"
     },
     {
-      Stack: "Python Programming",
+      Stack: "Python",
       progressPercentage: "80%"
     },
     {
-      Stack: "Robot Framework",
+      Stack: "Azure DevOps",
       progressPercentage: "90%"
     },
     {
-      Stack: "JIRA",
-      progressPercentage: "80%"
+      Stack: "JIRA Administration",
+      progressPercentage: "100%"
     },
     {
-      Stack: "Testing Agile",
+      Stack: "Agile Testing optimization",
       progressPercentage: "100%"
     },
     {
@@ -150,11 +146,11 @@ const techStack = {
       progressPercentage: "80%"
     },
     {
-      Stack: "Shell Scripting",
+      Stack: "Github",
       progressPercentage: "60%"
     },
     {
-      Stack: "Git",
+      Stack: "Github Actions",
       progressPercentage: "80%"
     },
     {
@@ -194,6 +190,46 @@ const techStack = {
 const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
+     {
+      role: "Automation Test Engineer",
+      company: "Canon Euurope",
+      date: "November 2023 – Present",
+      desc: "Automation Test and Release Manager",
+      descBullets: [
+        "Advocated for Test Frameworks: Initiated the adoption of robust test frameworks, emphasizing their role in ensuring high-quality products and services",
+        "Developed Comprehensive Test Strategies: Implemented detailed test strategies outlining objectives, scope, resource plans, RACI matrices, defect management processes, and schedules",
+        "Collaborated on Test Environment Governance: Spearheaded the definition of governance processes for test environments, data management, and non-production availability across various testing types",
+        "Supported Automation Initiatives: Led efforts to secure funding and approval for automation initiatives, collaborating closely with the Engineering Chapter to allocate resources effectively",
+        "Maintained Thorough Documentation: Ensured meticulous documentation of test strategies, plans, cases, results, requirement traceability matrices, and other testing artifacts",
+        "Coordinated and Coached Teams: Orchestrated team efforts in FAT, BAT, Business Regression Testing (BRT), and Data Migration testing, providing coaching and support throughoutg",
+        "Developed an automated solution that saved 30 hours of manual hours per week of the team's effort to improve the release readiness checks using Python, JIRA, Azure DevOps",
+        "Introduced Playwright for Automation: Pioneered the adoption of Playwright for testing web and REST API services, significantly improving end-to-end testing capabilities"
+        "Developed Automation Test Frameworks: Innovated by developing web and REST API automation frameworks using Playwright, Selenium, and UFT, streamlining testing processes",
+        "Improved Test Coverage: Elevated overall test coverage by 11% to achieve a comprehensive 92%, through proactive testing strategies and tool implementations.",
+        "Automated Release Readiness Checks: Engineered an automated solution using Python, JIRA, and Azure DevOps, saving 30 hours weekly and enhancing release deployment efficiency",
+        "Conducted Root Cause Analysis and Improvement: Initiated and implemented improvement actions derived from root cause analysis, effectively reducing defect leakages across multiple domains",
+        "Improved the existing software testing processes across Agile, Automation and Performance testing areas",
+        "Tested, Delivered mulitple projects successfully with in the domain, as a Test Consultant and Release manager, on demand",
+        "Administered JIRA for Organizational Implementation: Spearheaded the administration of JIRA, overseeing its implementation, migration, and customization to foster a DevOps mindset", 
+        "Mentored and Coached Team Members: Mentored team members in test automation and release management processes, fostering skill development and knowledge sharing"
+        
+      ]
+     },
+        {
+      role: "Automation Test Engineer",
+      company: "Pfizer",
+      companylogo: require("./assets/images/pfizer.png"),
+      date: "April 2020 – Present",
+      desc: "Automating testing of infrastructure as a code platform that helps in automatically build, deploy and host websites",
+      descBullets: [
+        "Automate the testing of Cloud based infrastructure as a code platform using pytest-BDD, selenium,Robot Framework,Postman",
+        "Automating testing of various AWS components such as EC2, SNS,SQS,S3,EC2 etc using Pytest-BDD, Robot Framework",
+        "Develop Automated testing frameworks to be integrated with CI/CD using Jenkins,Git",
+        "Set up of Software testing best practices in Agile scrum team",
+        "Engaged in improving the quality processes and frameworks deployed across Pfizer digital",
+        "Mentor the QA members in testing the applications/ building the frameworks"
+      ]
+     },
     {
       role: "Automation Test Engineer",
       company: "Pfizer",
